@@ -20,6 +20,7 @@ public class StepDefs {
 	 HomePage homePage = new HomePage();
 	 homePage.search.sendKeys("smth");
 	 assertTrue(Driver.getInstance().getTitle().contains("Google"));
+	 System.out.println("Test");
 	}
 
 }
